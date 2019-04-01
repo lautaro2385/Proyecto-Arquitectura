@@ -37,3 +37,50 @@ El punto de vista de la Cooperación en la Aplicación describe las relaciones e
 \end{figure}
 
 \newpage
+
+\section{Estructura de Aplicación}
+El punto de vista de la Estructura de la aplicación muestra la estructura de una o más aplicaciones o componentes. Este punto de vista es útil para diseñar o comprender la estructura principal de las aplicaciones o componentes y los datos asociados; por ejemplo, para desglosar la estructura del sistema en construcción o para identificar componentes de aplicaciones heredadas que sean adecuados para la migración / integración.
+\subsection{Modelo}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{Arquitectura/Aplicacion/imgs/estructuraMetamodelo.pdf}
+	\caption{Organización}
+\end{figure}
+\newpage
+\subsection{Caso de Estudio}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{Arquitectura/Aplicacion/imgs/estructura.pdf}
+	\caption{Caso}
+\end{figure}
+
+
+\subsection{Código}
+
+\lstinputlisting[language=Java]{Arquitectura/Aplicacion/fuentes/IContratacion.java}
+\lstinputlisting[language=Java]{Arquitectura/Aplicacion/fuentes/ICuenta.java}
+\lstinputlisting[language=Java]{Arquitectura/Aplicacion/fuentes/IMultimedia.java}
+\lstinputlisting[language=Java]{Arquitectura/Aplicacion/fuentes/IPromocion.java}
+\lstinputlisting[language=Java]{Arquitectura/Aplicacion/fuentes/IPublicacion.java}
+\lstinputlisting[language=Java]{Arquitectura/Aplicacion/fuentes/IPuntuacion.java}
+\lstinputlisting[language=Java]{Arquitectura/Aplicacion/fuentes/IRecaudo.java}
+\lstinputlisting[language=Java]{Arquitectura/Aplicacion/fuentes/IRecomendacion.java}
+\newpage
+
+\section{Uso de Aplicación}
+El punto de vista de Uso de la aplicación describe cómo se usan las aplicaciones para admitir uno o más procesos de negocios, y cómo las usan otras aplicaciones. Se puede usar para diseñar una aplicación identificando los servicios que necesitan los procesos de negocios y otras aplicaciones, o para diseñar procesos de negocios describiendo los servicios disponibles. Además, dado que identifica las dependencias de los procesos de negocios con respecto a las aplicaciones, puede ser útil para los gerentes operativos responsables de estos procesos.
+\subsection{Modelo}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.9\linewidth]{Arquitectura/Aplicacion/imgs/uso.pdf}
+	\caption{Organización}
+\end{figure}
+\newpage
+\subsection{Caso de Estudio}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{Arquitectura/Aplicacion/imgs/usoMetamodelo.pdf}
+	\caption{Caso}
+\end{figure}
