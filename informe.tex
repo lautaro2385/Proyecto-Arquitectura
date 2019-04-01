@@ -1,0 +1,33 @@
+\documentclass[12pt]{book}
+%-----------------------------------librerias---------------------------%
+\usepackage{graphicx}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\renewcommand{\spanishtablename}{Tabla}
+%-----------------------------------mascros-----------------------------%
+\input{macros}
+%-----------------------------------portada-----------------------------%
+\title{Arquitectura Empresarial}
+\author{Sandro Bolaños}
+%-----------------------------------documento---------------------------%
+\begin{document}
+\maketitle
+\tableofcontents
+\listoffigures
+\part{Proyecto}
+\include{Proyecto/Organizacion/Organizacion}
+\include{Proyecto/Metodologia/Metodologia}
+\part{Arquitectura}
+\include{Arquitectura/Negocio/Negocio}
+\include{Arquitectura/Aplicacion/Aplicacion}
+\include{Arquitectura/Tecnologia/Tecnologia}
+\include{Arquitectura/Migracion/Migracion}
+\include{Arquitectura/Motivacion/Motivacion}
+\include{Arquitectura/Estrategia/Estrategia}
+\part{Diseño}
+\include{Diseno/Creacionales/Creacionales}
+\include{Diseno/Estructurales/Estructurales}
+\include{Diseno/Comportamiento/Comportamiento}
+\part{Reflexiones}
+\include{Bibliografia/Bibliografia}
+\end{document}

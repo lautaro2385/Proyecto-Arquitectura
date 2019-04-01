@@ -1,0 +1,147 @@
+\chapter{Negocio}
+
+\section{Introducción}
+Un conjunto de estos puntos de vistas fue desarrollados en base a la experiencia práctica. Algunas de estas vistas tienen un alcance que se limita a una sola capa o aspecto. Por lo tanto, las vistas de la función empresarial y el proceso empresarial muestran las dos perspectivas principales sobre el comportamiento empresarial; El punto de vista de la Organización describe la estructura de la empresa en términos de sus departamentos, roles, etc .; El punto de vista de la Estructura de la información describe la información y los datos utilizados; los puntos de vista de la Estructura, el Comportamiento y la Cooperación de la Aplicación contienen las aplicaciones y los componentes y sus relaciones mutuas; y el punto de vista de la infraestructura muestra la infraestructura y las plataformas subyacentes a los sistemas de información de la compañía en términos de redes, dispositivos y software del sistema. Otros puntos de vista vinculan múltiples capas y / o aspectos: los puntos de vista de la Cooperación del actor y el Producto relacionan a la compañía con su entorno; el punto de vista de Uso de la aplicación relaciona las aplicaciones con su uso, por ejemplo, en procesos de negocios; y el punto de vista de la implementación muestra cómo se asignan las aplicaciones a la infraestructura subyacente. 
+\newpage
+
+\section{Organización}
+El punto de vista de la organización se centra en la organización (interna) de una empresa, un departamento, una red de empresas u otra entidad organizativa. Es posible presentar los modelos en este punto de vista como diagramas de bloques anidados, pero también de una manera más tradicional, como los organigramas. El punto de vista de la organización es muy útil para identificar competencias, autoridad y responsabilidades en una organización.
+\subsection{Modelo}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{Arquitectura/Negocio/imgs/organizacion.pdf}
+	\caption{Organización}
+\end{figure}
+\newpage
+\subsection{Caso de Estudio}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.8\linewidth]{Arquitectura/Negocio/imgs/caso.pdf}
+	\caption{Caso}
+\end{figure}
+
+\newpage
+
+\section{Cooperación del Actor}
+El punto de vista de la Cooperación Actor se centra en las relaciones de los actores entre sí y con su entorno. Un ejemplo común de esto es el "diagrama de contexto", que coloca a una organización en su entorno, compuesta por partes externas, como clientes, proveedores y otros socios comerciales. Es muy útil para determinar dependencias y colaboraciones externas y muestra la cadena de valor o la red en la que opera el actor. Otro uso importante del punto de vista de la Cooperación Actor es mostrar cómo un número de actores empresariales y / o componentes de aplicaciones que cooperan realizan juntos un proceso empresarial. Por lo tanto, en este punto de vista, pueden ocurrir actores o roles comerciales y componentes de aplicaciones.
+\subsection{Modelo}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{Arquitectura/Negocio/imgs/cooperacionActorMetaModelo.pdf}
+	\caption{Metamodelo}
+\end{figure}
+\newpage
+\subsection{Caso de Estudio}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{Arquitectura/Negocio/imgs/cooperacionActor.pdf}
+	\caption{Caso}
+\end{figure}
+\newpage
+
+
+\section{Función de negocio}
+El punto de vista de la función de negocios muestra las funciones de negocios principales de una organización y sus relaciones en términos de flujos de información, valor o bienes entre ellos. Las funciones empresariales se utilizan para representar los aspectos más estables de una empresa en términos de las actividades principales que realiza, independientemente de los cambios organizativos o los desarrollos tecnológicos. Por lo tanto, la arquitectura de la función empresarial de las empresas que operan en el mismo mercado a menudo muestra similitudes cercanas. El punto de vista de la función empresarial proporciona una visión de alto nivel en las operaciones generales de la empresa y se puede utilizar para identificar las competencias necesarias o para estructurar una organización de acuerdo con sus actividades principales.
+\subsection{Modelo}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.8\linewidth]{Arquitectura/Negocio/imgs/FuncionNegocioMetamodelo.pdf}
+	\caption{Metamodelo}
+\end{figure}
+\newpage
+\subsection{Caso de Estudio}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{Arquitectura/Negocio/imgs/FuncionNegocio.pdf}
+	\caption{Caso}
+\end{figure}
+\newpage
+
+\section{Función de negocio}
+El punto de vista de la función de negocios muestra las funciones de negocios principales de una organización y sus relaciones en términos de flujos de información, valor o bienes entre ellos. Las funciones empresariales se utilizan para representar los aspectos más estables de una empresa en términos de las actividades principales que realiza, independientemente de los cambios organizativos o los desarrollos tecnológicos. Por lo tanto, la arquitectura de la función empresarial de las empresas que operan en el mismo mercado a menudo muestra similitudes cercanas. El punto de vista de la función empresarial proporciona una visión de alto nivel en las operaciones generales de la empresa y se puede utilizar para identificar las competencias necesarias o para estructurar una organización de acuerdo con sus actividades principales.
+\subsection{Modelo}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.8\linewidth]{Arquitectura/Negocio/imgs/FuncionNegocioMetamodelo.pdf}
+	\caption{Metamodelo}
+\end{figure}
+\newpage
+\subsection{Caso de Estudio}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{Arquitectura/Negocio/imgs/FuncionNegocio.pdf}
+	\caption{Caso}
+\end{figure}
+\newpage  
+
+\section{Proceso de Negocio}
+El punto de vista del Proceso de Negocio se usa para mostrar la estructura y composición de alto nivel de uno o más procesos de negocio. Junto a los procesos en sí, este punto de vista contiene otros conceptos directamente relacionados, tales como:
+\begin{itemize}
+\item Los servicios que un proceso de negocios ofrece al mundo exterior, mostrando cómo un proceso contribuye a la realización de los productos de la empresa.
+\item La asignación de procesos de negocios a roles, lo que da una idea de las responsabilidades de los actores asociados.
+\item La información utilizada por el proceso de negocio. 
+\end{itemize}
+Cada uno de estos puede considerarse como una "vista secundaria" de la vista del proceso de negocio.
+\subsection{Modelo}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{Arquitectura/Negocio/imgs/ProcesoNegocioMetamodelo.pdf}
+	\caption{Metamodelo}
+\end{figure}
+\newpage
+\subsection{Caso de Estudio}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{Arquitectura/Negocio/imgs/ProcesoNegocio.pdf}
+	\caption{Caso}
+\end{figure}
+\newpage
+
+\section{Cooperación Proceso de Negocio}
+El punto de vista de la Cooperación de Procesos de Negocios se utiliza para mostrar las relaciones de uno o más procesos de negocios entre sí y / o con su entorno. Puede utilizarse tanto para crear un diseño de alto nivel de procesos de negocios dentro de su contexto como para proporcionar un gerente operativo responsable de uno o más de estos procesos con información sobre sus dependencias. Los aspectos importantes de la cooperación en los procesos de negocios son:
+\begin{itemize}
+\item Relaciones causales entre los principales procesos de negocio de la empresa.
+\item Mapeo de procesos de negocios en funciones de negocios.
+\item Realización de servicios por procesos de negocio.
+\item Uso de datos compartidos.
+\end{itemize}
+Cada uno de estos puede considerarse como una "sub-vista" de la vista de cooperación del proceso de negocios.
+\subsection{Modelo}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{Arquitectura/Negocio/imgs/ProcesoNegocioMetamodelo.pdf}
+	\caption{Metamodelo}
+\end{figure}
+\newpage
+\subsection{Caso de Estudio}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.8\linewidth]{Arquitectura/Negocio/imgs/cooperacionProceso.pdf}
+	\caption{Caso}
+\end{figure}
+\newpage
+
+\section{Producto}
+El punto de vista del producto representa el valor que estos productos ofrecen a los clientes u otras partes externas involucradas y muestra la composición de uno o más productos en términos de los servicios constitutivos (negocio o aplicación) y los contratos u otros acuerdos asociados. También se puede utilizar para mostrar las interfaces (canales) a través de las cuales se ofrece este producto y los eventos asociados con el producto. Un punto de vista del Producto se usa normalmente en el desarrollo del producto para diseñar un producto al componer los servicios existentes o al identificar qué servicios nuevos se deben crear para este producto, dado el valor que el cliente espera de él. Entonces puede servir como entrada para los arquitectos de procesos de negocios y otros que necesitan diseñar los procesos y las TIC para realizar estos productos.
+\subsection{Modelo}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{Arquitectura/Negocio/imgs/ProductoMetamodelo.pdf}
+	\caption{Metamodelo}
+\end{figure}
+\newpage
+\subsection{Caso de Estudio}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{Arquitectura/Negocio/imgs/Producto.pdf}
+	\caption{Caso}
+\end{figure}
+\newpage
+
