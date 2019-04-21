@@ -63,32 +63,8 @@ Y se ven los roles principales del negocio, cpomo lo son los Músicos y el contr
 \end{figure}
 \newpage
 
-\section{Función de negocio}
-El punto de vista de la función de negocios muestra las funciones de negocios principales de una organización y sus relaciones en términos de flujos de información, valor o bienes entre ellos. Las funciones empresariales se utilizan para representar los aspectos más estables de una empresa en términos de las actividades principales que realiza, independientemente de los cambios organizativos o los desarrollos tecnológicos. Por lo tanto, la arquitectura de la función empresarial de las empresas que operan en el mismo mercado a menudo muestra similitudes cercanas. El punto de vista de la función empresarial proporciona una visión de alto nivel en las operaciones generales de la empresa y se puede utilizar para identificar las competencias necesarias o para estructurar una organización de acuerdo con sus actividades principales.
-\subsection{Modelo}
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=0.8\linewidth]{Arquitectura/Negocio/imgs/FuncionNegocioMetamodelo.pdf}
-	\caption{Metamodelo}
-\end{figure}
-\newpage
-\subsection{Caso de Estudio}
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=\linewidth]{Arquitectura/Negocio/imgs/FuncionNegocio.pdf}
-	\caption{Caso}
-\end{figure}
-\newpage  
-
 \section{Proceso de Negocio}
-El punto de vista del Proceso de Negocio se usa para mostrar la estructura y composición de alto nivel de uno o más procesos de negocio. Junto a los procesos en sí, este punto de vista contiene otros conceptos directamente relacionados, tales como:
-\begin{itemize}
-\item Los servicios que un proceso de negocios ofrece al mundo exterior, mostrando cómo un proceso contribuye a la realización de los productos de la empresa.
-\item La asignación de procesos de negocios a roles, lo que da una idea de las responsabilidades de los actores asociados.
-\item La información utilizada por el proceso de negocio. 
-\end{itemize}
-Cada uno de estos puede considerarse como una "vista secundaria" de la vista del proceso de negocio.
+El punto de vista del Proceso de Negocio se usa para mostrar la estructura y composición de alto nivel de uno o más procesos de negocio. Y en este caso de estudio, se presenta uno de los procesos fundamentales del negocio, como lo es la contratación de un músico, y se pueden ver los diferentes procesos que se llevan a cabo para la ejecución exitosa de este proceso de negocio, desde la selección de un músico hasta su presentación en el domicilio.
 \subsection{Modelo}
 \begin{figure}[h!]
 	\centering
@@ -106,14 +82,9 @@ Cada uno de estos puede considerarse como una "vista secundaria" de la vista del
 \newpage
 
 \section{Cooperación Proceso de Negocio}
-El punto de vista de la Cooperación de Procesos de Negocios se utiliza para mostrar las relaciones de uno o más procesos de negocios entre sí y / o con su entorno. Puede utilizarse tanto para crear un diseño de alto nivel de procesos de negocios dentro de su contexto como para proporcionar un gerente operativo responsable de uno o más de estos procesos con información sobre sus dependencias. Los aspectos importantes de la cooperación en los procesos de negocios son:
-\begin{itemize}
-\item Relaciones causales entre los principales procesos de negocio de la empresa.
-\item Mapeo de procesos de negocios en funciones de negocios.
-\item Realización de servicios por procesos de negocio.
-\item Uso de datos compartidos.
-\end{itemize}
-Cada uno de estos puede considerarse como una "sub-vista" de la vista de cooperación del proceso de negocios.
+El punto de vista de la Cooperación de Procesos de Negocios se utiliza para mostrar las relaciones de uno o más procesos de negocios entre sí y/o con su entorno. \\
+
+En el caso de estudio, se pueden ver los roles involucrados y los procesos realizados en la contratación de un músico, más específicamente en el proceso final donde se hace la presentación del músico.
 \subsection{Modelo}
 \begin{figure}[h!]
 	\centering
@@ -125,13 +96,15 @@ Cada uno de estos puede considerarse como una "sub-vista" de la vista de coopera
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.8\linewidth]{Arquitectura/Negocio/imgs/cooperacionProceso.pdf}
+	\includegraphics[width=\linewidth]{Arquitectura/Negocio/imgs/cooperacionProceso.pdf}
 	\caption{Caso}
 \end{figure}
 \newpage
 
 \section{Producto}
-El punto de vista del producto representa el valor que estos productos ofrecen a los clientes u otras partes externas involucradas y muestra la composición de uno o más productos en términos de los servicios constitutivos (negocio o aplicación) y los contratos u otros acuerdos asociados. También se puede utilizar para mostrar las interfaces (canales) a través de las cuales se ofrece este producto y los eventos asociados con el producto. Un punto de vista del Producto se usa normalmente en el desarrollo del producto para diseñar un producto al componer los servicios existentes o al identificar qué servicios nuevos se deben crear para este producto, dado el valor que el cliente espera de él. Entonces puede servir como entrada para los arquitectos de procesos de negocios y otros que necesitan diseñar los procesos y las TIC para realizar estos productos.
+El punto de vista del producto representa el valor que estos productos ofrecen a los clientes u otras partes externas involucradas y muestra la composición de uno o más productos en términos de los servicios constitutivos (negocio o aplicación) y los contratos u otros acuerdos asociados. \\
+
+En el caso de estudio, 
 \subsection{Modelo}
 \begin{figure}[h!]
 	\centering
