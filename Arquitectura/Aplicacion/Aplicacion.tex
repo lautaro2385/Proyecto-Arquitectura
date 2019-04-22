@@ -1,12 +1,14 @@
 \chapter{Aplicación}
 
 \section{Comportamiento de Aplicación}
-El punto de vista Comportamiento de la aplicación describe el comportamiento interno de una aplicación; Por ejemplo, ya que realiza uno o más servicios de aplicación. Este punto de vista es útil para diseñar el comportamiento principal de las aplicaciones o para identificar la superposición funcional entre diferentes aplicaciones.
+El punto de vista Comportamiento de la aplicación describe el comportamiento interno de una aplicación.\\
+
+Se puede ver en el caso de estudio, los diferentes componentes involucrados en el comportamiento y funcionalidad de la aplicación, se tiene en cuanta las visualización de la parte comercial de los músicos, su contratación, su pago, el sistema de recomendación, ...
 \subsection{Modelo}
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=\linewidth]{Arquitectura/Aplicacion/imgs/ComportamientoMetamodelo.pdf}
-	\caption{Organización}
+	\includegraphics[width=0.8\linewidth]{Arquitectura/Aplicacion/imgs/ComportamientoMetamodelo.pdf}
+	\caption{Modelo: Comportamiento de Aplicación}
 \end{figure}
 \newpage
 \subsection{Caso de Estudio}
@@ -14,18 +16,21 @@ El punto de vista Comportamiento de la aplicación describe el comportamiento in
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{Arquitectura/Aplicacion/imgs/Comportamiento.pdf}
-	\caption{Caso}
+	\caption{Caso de estudio:  Comportamiento de Aplicación}
+	\label{fig:comportamiento}
 \end{figure}
 
 \newpage
 
 \section{Cooperación de Aplicación}
-El punto de vista de la Cooperación en la Aplicación describe las relaciones entre los componentes de las aplicaciones en términos de los flujos de información entre ellos, o en términos de los servicios que ofrecen y utilizan. Este punto de vista se suele utilizar para crear una visión general del panorama de aplicaciones de una organización. Este punto de vista también se utiliza para expresar la cooperación (interna) u orquestación de servicios que en conjunto apoyan la ejecución de un proceso de negocios.
+El punto de vista de la Cooperación en la Aplicación describe las relaciones entre los componentes de las aplicaciones en términos de los flujos de información entre ellos, o en términos de los servicios que ofrecen y utilizan. \\
+
+En el caso de estudio, se  crear una visión general del panorama de aplicaciones de una organización. se divide en dos, la parte del front y el back, la primera hacer referencia lo que esta en contacto directo con los principales actores y en el back, hace referencia a todos los proceso que se hacen sin incolucrar directamente los actores.
 \subsection{Modelo}
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{Arquitectura/Aplicacion/imgs/CooperacionMetamodelo.pdf}
-	\caption{Organización}
+	\caption{Modelo: Cooperación de Aplicación}
 \end{figure}
 \newpage
 \subsection{Caso de Estudio}
@@ -33,18 +38,22 @@ El punto de vista de la Cooperación en la Aplicación describe las relaciones e
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{Arquitectura/Aplicacion/imgs/Cooperacion.pdf}
-	\caption{Caso}
+	\caption{Caso de estudio: Cooperación de Aplicación }
 \end{figure}
 
 \newpage
 
 \section{Estructura de Aplicación}
-El punto de vista de la Estructura de la aplicación muestra la estructura de una o más aplicaciones o componentes. Este punto de vista es útil para diseñar o comprender la estructura principal de las aplicaciones o componentes y los datos asociados; por ejemplo, para desglosar la estructura del sistema en construcción o para identificar componentes de aplicaciones heredadas que sean adecuados para la migración / integración.
+El punto de vista de la Estructura de la aplicación muestra la estructura de una o más aplicaciones o componentes. \vspace{\baselineskip}
+
+Para el caso de estudio, se representan las principales interfaces de la aplicación y sus respectivos componentes, las principales interfaces son: Publicación, Multimedia, Contratación, Recaudo, Puntuación, Promoción, Cuenta y Recomendación. \vspace{\baselineskip}
+
+Y así con la Figura \ref{fig:comportamiento} se puede combinar para genera el código presentado a continuación.
 \subsection{Modelo}
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{Arquitectura/Aplicacion/imgs/estructuraMetamodelo.pdf}
-	\caption{Organización}
+	\caption{Modelo: Estructura de Aplicación}
 \end{figure}
 \newpage
 \subsection{Caso de Estudio}
@@ -52,7 +61,7 @@ El punto de vista de la Estructura de la aplicación muestra la estructura de un
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{Arquitectura/Aplicacion/imgs/estructura.pdf}
-	\caption{Caso}
+	\caption{Caso de estudio: Estructura de Aplicación }
 \end{figure}
 
 
@@ -69,12 +78,15 @@ El punto de vista de la Estructura de la aplicación muestra la estructura de un
 \newpage
 
 \section{Uso de Aplicación}
-El punto de vista de Uso de la aplicación describe cómo se usan las aplicaciones para admitir uno o más procesos de negocios, y cómo las usan otras aplicaciones. Se puede usar para diseñar una aplicación identificando los servicios que necesitan los procesos de negocios y otras aplicaciones, o para diseñar procesos de negocios describiendo los servicios disponibles. Además, dado que identifica las dependencias de los procesos de negocios con respecto a las aplicaciones, puede ser útil para los gerentes operativos responsables de estos procesos.
+
+El punto de vista de Uso de la aplicación describe cómo se usan las aplicaciones para admitir uno o más procesos de negocios, y cómo las usan otras aplicaciones. \vspace{\baselineskip}
+
+El el caso de estudio, se puede ver el proceso de contratación, y sus procesos asociados a este, y su interacción entre lo servicios y los componentes que las integran para lograr el proceso deseado.
 \subsection{Modelo}
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.9\linewidth]{Arquitectura/Aplicacion/imgs/uso.pdf}
-	\caption{Organización}
+	\caption{Modelo: Uso de Aplicación}
 \end{figure}
 \newpage
 \subsection{Caso de Estudio}
@@ -82,5 +94,5 @@ El punto de vista de Uso de la aplicación describe cómo se usan las aplicacion
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{Arquitectura/Aplicacion/imgs/usoMetamodelo.pdf}
-	\caption{Caso}
+	\caption{Caso de estudio: Uso de Aplicación}
 \end{figure}
